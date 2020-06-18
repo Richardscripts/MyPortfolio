@@ -1,85 +1,113 @@
-<!DOCTYPE=html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
-  </head>
+body {
+  background-color: white;
 
-<body>
-  <!--- top banner--->
-  <header>
-    <h1>Richard C. Scott</h1>
-    <p><em>Web Developer</em></p>
-  </header>
+}
+header, footer {
+  color: #3A3335;
+  background-color: rgb(255, 246, 225);
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  <main> 
-<!--- centering container & image --->
-    <div class="image-align wrapper">
-      <img src="images/pic-of-me.png" alt="Picture of Richard Smiling">
-    </div>
+header {
+  font-size: 24;
 
-<!--- introduction text---->
-  <section>
-    <div class="wrapper">
-      <p><h2 class="special-font">Hello! I'm Richard, an aspiring web developer from Philadelphia.</h2>
-      My mission is to make the world a better place with code, </p>
-      <p>and become a part of something bigger than myself!</p>
-    </div>
-      <ul><p><h2 class="extra-space">My ethos is simple:</h2></p>
-      <li> Always be  at the forefront of what it means to write quality code
-      <li> Effective communication and understanding is crucial to teamwork
-      <li> Try to learn and grow everyday!
-      <li> Consistently reflect my values in my work and attitude
-      </ul>
-  </section>
+}
 
+footer {
+  font-size: 14;
+  margin-top: 22px;
 
-<!----------------------------><hr><!---------------------------->
+}
 
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3A3335;
+  font-size: 16;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  <section>
-    <p><h3>Who am I?</h3></P
-      <p>I am 32 years old, and while born and raised in Philadelphia, PA, I have grown to love to experience anything the world has to offer. While finding myself has been a life-long journey, I have always had a programmer's mindset; I was the kid in the family who <i>spoke computer.</i> From being a traveling musician, a waiter, a recording engineer, to a home health aide, and although my background is storied, I have found a dream profession developing websites for anyone in need of my skills!</p>
+/* centering image */
+.image-align {
+  box-sizing: border-box;
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
 
-      I am currently a student at <a href="https://www.thinkful.com/">Thinkful</a>. If I strike you as someone you'd like to work with (or even just to chat with a fellow programmer), please, don't hesitate to <a href="mailto:richardcarmenscott@gmail.com"">reach out</a> to me.
-  </section>
+}
 
+hr {
+  width: 50%;
+}
 
-<!----------------------------><hr><!---------------------------->
+/* help center containers */
+.center {
+  margin: auto;
+  width: 50%;
+}
 
-  <div class="force-center">
-    <section>
-      <div class="center">
-        <ol><p><h3>Contact</h3></p>
-          <li><a href="https://www.linkedin.com/in/richard-scott-4b79821aa/" target="_blank">Linkedin</a>
-          <li><a href="https://github.com/Richardscripts" target="_blank">Github</a>
-          <li><a href="mailto:richardcarmenscott@gmail.com" target="_blank">Email</a>
-        </ol>
-      </div>
-    </section>
-  </div>
+h1 {
+  font-size: 60;
+  color:  #3A3335;
+  font-family: Over the Rainbow, Arial, Helvetica, sans-serif;
+  text-shadow: 2px 4px 12px ghostwhite;
+}
 
-<!-- google maps centered ---->
+li {
+  margin: 8px;
+}
 
-  <div class="wrapper">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195601.28720359915!2d-75.25811239143708!3d40.00241367555988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1592505284939!5m2!1sen!2sus" width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
-  
+/* help center containers */
+.wrapper {
+  display:block;
+  width: 100%;
+  text-align: center;
+}
 
-</main>
+/* displaying google font */
+.special-font {
+  color:  #3A3335;
+  font-family: permanent marker, Arial, Helvetica, sans-serif;
+  font-size: 30;
+}
 
-<!---------footer---------->
+/* creating distance between elements */
+.extra-space {
+  margin-top: 60px;
 
-  <footer>
-    <p>Richard C. Scott / Thinkful</p>
-       RichardCarmenScott@gmail.com
-  </footer>
+}
 
+/* help center containers */
+.force-center {
+  margin: auto;
+  width: 50%;
+}
 
-</body>
-</html> 
+a:link {
+  color: #3A3335;
+}
+
+a:visited {
+  color: #3A3335;
+}
+
+a:hover {
+  color:  navajowhite;
+}
+
+a:active {
+  color: black;
+}
+
+/*-- interesting animation--*/
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
