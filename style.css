@@ -102,3 +102,12 @@ a:hover {
 a:active {
   color: black;
 }
+
+/*-- interesting animation--*/
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
