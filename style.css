@@ -2,27 +2,22 @@ body {
   background-color: white;
 
 }
-
-
-header {
+header, footer {
   color: #3A3335;
   background-color: rgb(255, 246, 225);
   text-align: center;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
   font-size: 24;
 
 }
 
 footer {
-  color: #3A3335;
-  background-color: rgb(255, 246, 225);
-  text-align: center;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14;
   margin-top: 22px;
-
 
 }
 
@@ -36,21 +31,20 @@ section {
   width: 50%;
 }
 
+/* centering image */
 .image-align {
   box-sizing: border-box;
   margin: auto;
   width: 50%;
-  margin-top: 70px;
-  margin-bottom: 70px;
-
+  margin-top: 50px;
 
 }
 
 hr {
-  color: rgb(255, 246, 225);
   width: 50%;
 }
 
+/* help center containers */
 .center {
   margin: auto;
   width: 50%;
@@ -67,23 +61,27 @@ li {
   margin: 8px;
 }
 
+/* help center containers */
 .wrapper {
   display:block;
   width: 100%;
   text-align: center;
 }
 
+/* displaying google font */
 .special-font {
   color:  #3A3335;
   font-family: permanent marker, Arial, Helvetica, sans-serif;
   font-size: 30;
 }
 
+/* creating distance between elements */
 .extra-space {
   margin-top: 60px;
 
 }
 
+/* help center containers */
 .force-center {
   margin: auto;
   width: 50%;
