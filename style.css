@@ -112,11 +112,3 @@ a:active {
   animation: swing; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* sets a duration! */
 }
-
-.logo-buttons {
-  width: 100px;
-}
-
-.logo-size {
-  width: 100%;
-}
