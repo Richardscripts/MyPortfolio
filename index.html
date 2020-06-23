@@ -1,94 +1,162 @@
-<!DOCTYPE=html>
-<html>
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
   <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Richard C. Scott Website Portfolio</title>
+
   <!-- normalize.css -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
-  
+
   <!-- google fonts -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   
-  <!-- animation in header -->
+  <!-- animations link -->
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
   </head>
+  <body>
+  <main>
+ 
+ <!-- top banner section  -->
+    <header>
+      <div class="rainbow-font swing">
+      <h1>Richard Carmen Scott</h1>
+      </div>
+      <div style="margin: 25px 0px 25px;">
+      <em><b>Web Developer</b></em>
+      </div>
 
-<body>
-  <!--- top banner--->
-  <header>
-    <h1 class="my-element">Richard C. Scott</h1>
-    <p><em>Web Developer</em></p>
-  </header>
-
-  <main> 
-<!--- centering container & image --->
-    <div class="image-align wrapper">
-      <img src="images/pic-of-me.png" alt="Picture of Richard Smiling">
-    </div>
-
-<!--- introduction text---->
-  <section>
-    <div class="wrapper">
-      <p><h2 class="special-font">Hello! I'm Richard, an aspiring web developer from Philadelphia.</h2>
-      My mission is to make the world a better place with code, </p>
-      <p>and become a part of something bigger than myself!</p>
-    </div>
-      <ul><p><h2 class="extra-space">My ethos is simple:</h2></p>
-      <li> Always be  at the forefront of what it means to write quality code
-      <li> Effective communication and understanding is crucial to teamwork
-      <li> Try to learn and grow everyday!
-      <li> Consistently reflect my values in my work and attitude
-      </ul>
-  </section>
-
-
-<!----------------------------><hr><!---------------------------->
-
-
-  <section>
-    <p><h3>Who am I?</h3></P
-      <p>I am 32 years old, and while born and raised in Philadelphia, PA, I have grown to love to experience anything the world has to offer. While finding myself has been a life-long journey, I have always had a programmer's mindset; I was the kid in the family who <i>spoke computer.</i> From being a traveling musician, a waiter, a recording engineer, to a home health aide, and although my background is storied, I have found a dream profession developing websites for anyone in need of my skills!</p>
-
-      I am currently a student at <a href="https://www.thinkful.com/">Thinkful</a>. If I strike you as someone you'd like to work with (or even just to chat with a fellow programmer), please, don't hesitate to <a href="mailto:richardcarmenscott@gmail.com"">reach out</a> to me.
-  </section>
-
-
-<!----------------------------><hr><!---------------------------->
-
-  <div class="force-center">
-    <section>
-      <div class="center">
+    <!-- four image-buttons with animations -->
+      <div>
+       
+        <a href="https://www.linkedin.com/in/richard-scott-4b79821aa/" target="_blank">
+        <img class="button-link" style="vertical-align: 100%; margin-right: 8px;" src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" alt="Linkedin button"/></a>
         
-        <ol><p><h2>Contact</h2></p>
-          <li><a href="https://www.linkedin.com/in/richard-scott-4b79821aa/" target="_blank">Linkedin</a>
-          <li><a href="https://github.com/Richardscripts" target="_blank">Github</a>
-          <li><a href="mailto:richardcarmenscott@gmail.com" target="_blank">Email</a>
-        </ol>
+        <a href="https://github.com/Richardscripts" target="_blank"><img class="button-link" style="vertical-align: 100%" src="https://img.icons8.com/doodle/48/000000/github--v1.png" alt="Github button"/></a>
+        
+        <a href="mailto:richardcarmenscott@gmail.com" target="_blank"><img class="google-button-link" style="width: 78px; vertical-align: 20%" src="https://img.icons8.com/clouds/100/000000/gmail.png" alt="Gmail button"/></a>
+        
+        <a href="https://www.thinkful.com/" target="_blank"><img class="button-link" style="width: 48px; vertical-align: 100%" src="https://img.icons8.com/dusk/64/000000/idea.png" alt="Thinkful button"/></a>
+
+      </div>
+    </header>
+
+<!-- photo and intro tagline -->
+    <div class="photo-background">   
+      <div class="photo-spacing">
+      </div>
+        <section class="pic-container">
+        <div>
+          <img class="image photo-animation" src="images/pic-of-me.png" alt="Picture of Me Smiling">
+        </div>
+        <div class="hello-section">
+        <div class="hello-statement">
+          <h2>Hello! I'm Richard, an aspiring web developer from Philadelphia.</h2>
+        </div>
+        </div>
+        </section>
+        <div class="photo-spacing">
+        </div> 
+    </div>
+
+  <!-- mission statement section -->
+    <section class="mission-section">
+      <div class="mission-statement fadeIn">
+      <h3>My mission is to make the world a better place with code.</h3>
+      <h3>I want to become a part of something bigger than myself.</h3>
+      <hr>
       </div>
     </section>
-  </div>
 
-<!-- google maps centered ---->
+<!-- ethos section -->
+    <div class="ethos-background">
+      <section class="ethos-section">
+      <div class="ethos-statement fade-left">
+      <h2>My ethos is simple:</h2>
+        <ul>
+          <li> Always be  at the forefront of what it means to write quality code
+          </li>
+          <li> Effective communication and understanding is crucial to teamwork
+          </li>
+          <li> Try to learn and grow everyday!
+          <li> Consistently reflect my values in my work and attitude
+          </li>
+        </ul>
+      </div>
+      </section>
+    </div>
+ 
+ <!-- who am I? section -->
+    <div>
+    <section class="who-section">
+      <div class="bounceInLeft">
+      <h3>Who am I?</h3>
+      </div>
+      <div class="bounceInRight">
+      <p><i>I am 32 year old student studying at <a href="https://www.Thinkful.com">Thinkful</a>, and while born and raised in Philadelphia, PA, I have grown to love to experience anything the world has to offer. While finding myself has been a life-long journey, I have always had a programmer's mindset; I was the kid in the family who <em>spoke computer.</em> From being a traveling musician, a waiter, a recording engineer, to a home health aide, and although my background is storied, I have found a dream profession developing exemplary websites!</i></p>
+      </div>
+      <hr>
+    </section>
+    </div>
 
-  <div class="wrapper">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195601.28720359915!2d-75.25811239143708!3d40.00241367555988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1592505284939!5m2!1sen!2sus" width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
-  
+<!--contact numbered list section -->
+    <div class="contact-background  slideInUp">
+    <section class="contact-section">
+      <div class="contact-list">
+      <h2>Contact</h2>
+      <div>
+      <ol>
+        <li>
+          <div class="logo-buttons contact-images">
+          <a href="https://www.linkedin.com/in/richard-scott-4b79821aa/" target="_blank">
+            <img class="logo-size logo-button-effect" style="width: 125px;" src="images/linkedin.png" alt="Linkedin Logo Button"></a>
+          </div>
+        </li>
+        <li>
+          <div class="contact-images">
+          <a href="https://github.com/Richardscripts" target="_blank">
+            <img class="logo-size logo-button-effect" style="width: 120px;" src="images/github-logo.jpg" alt="Github Logo Button"></a>
+          </div>
+        </li>
+        <li>
+          <div class="contact-images logo-button-effect">
+          <a href="mailto:richardcarmenscott@gmail.com" target="_blank">
+            <img class="logo-size" src="images/gmail-logo.jpg" alt="Gmail Logo Button"></a>
+          </div>
+        </li>
+      </ol>
+      </div>
+      </div>
+    </section>
+    </div>
 
-</main>
+<!-- google maps embed -->
+    <div class="google-section">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6117.024985104536!2d-75.2247670207762!3d39.952293117687304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c6ebd02fd2cf%3A0xeff4cd6a484a81a3!2sGarden%20Court%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1592937233276!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
 
-<!---------footer---------->
+  </main>
 
-  <footer>
-    <p>Richard C. Scott @ Thinkful</p>
-  </footer>
+<!-- footer section -->
+    <footer>
+      <p>Richard Carmen Scott @ Thinkful</P>
+      <a href="https://pixabay.com/" target="_blank">Images from Pixabay</a>
+    </footer>
+
 
 
 </body>
-</html> 
+</html>
+
+
