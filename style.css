@@ -73,7 +73,7 @@ header {
 .pic-container {
   display: flex;
   margin-left: 9.5%; 
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .hello-section {
