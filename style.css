@@ -4,6 +4,10 @@ html {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
 } 
 
+body {
+  overflow-x: hidden; 
+} 
+
 main {
   background-image: url(images/philly.jpg);
   background-attachment: fixed;
@@ -14,7 +18,7 @@ h1 {
   font-size: 74px;
   font-weight: 100;
   margin: auto;
-}
+} 
 
 h2 {
   font-size: 44px;
@@ -73,7 +77,8 @@ header {
 .pic-container {
   display: flex;
   margin-left: 9.5%; 
-  overflow-x: auto;
+  overflow: auto;
+
 }
 
 .hello-section {
@@ -87,6 +92,7 @@ header {
   color: antiquewhite;
   padding-left: 25%;
   padding-top: 14%;
+
 }
 
 /* mission statement section styling */
@@ -104,6 +110,7 @@ header {
   width: 50%;
   color:  #296263;
   padding: 11%;
+  overflow-x: hidden; 
 
 }
 
@@ -132,8 +139,9 @@ header {
   font-size: 24px;
   color:  #296263;
   padding: 8%;
+  overflow-x: hidden; 
 
-}
+} 
 
 /* who am I? section styling */
 
@@ -146,11 +154,13 @@ header {
   height: 60%;
   padding: 9%;
   margin-bottom: 50px;
+  overflow-x: hidden; 
 }
 
 .who-section > div {
   margin: auto;
   width: 50%;
+  overflow-x: hidden; 
 }
 
 /* contacts section styling */
@@ -161,6 +171,7 @@ header {
   height: 600px;
   font-size: 24px;
   font-family: Shadow Into Light, Arial, Helvetica, sans-serif;
+  overflow-x: hidden; 
 
 }
 
@@ -204,7 +215,7 @@ footer {
   color: antiquewhite;
 
 }
-
+ 
 /* various animations styling */
 
 .swing {
