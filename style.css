@@ -67,22 +67,26 @@ header {
 
 .image {
   padding: 50px;
-  margin-left: 120px;
+ /**/
 }
 
 .pic-container {
   display: flex;
+  margin-left: 9.5%; 
+  overflow-x: hidden;
 }
 
 .hello-section {
-  width: 800px;
+  width: 50%;  /**/ 
 }
 
 .hello-statement {
+  display: inline-block;
   text-align: center;
   font-family: permanent marker, Arial, Helvetica, sans-serif;
   color: antiquewhite;
-  padding: 88px 88px 88px 89px;;
+  padding-left: 25%;
+  padding-top: 14%;
 }
 
 /* mission statement section styling */
