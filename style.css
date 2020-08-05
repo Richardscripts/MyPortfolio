@@ -1,301 +1,393 @@
 /* general page stylings */
 
 html {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-} 
-
-body {
-  overflow-x: hidden; 
-} 
-
-main {
-  background-image: url(images/philly.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-h1 {
-  font-size: 74px;
-  font-weight: 100;
-  margin: auto;
-} 
-
-h2 {
-  font-size: 44px;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 34px;
-  font-weight: 100;
-
-}
-
-hr {
-  width: 20%;
-  margin-top: 70px;
-  border: solid #2f6c6e 1px;
-  opacity: .5;
-}
-
-li {
-  padding: 10px;
-}
-
-/* top header styling */
-
-header {
-  background-color: rgb(183, 224, 224);
-  text-align: center;
-  color: antiquewhite;
-  padding-bottom: 8px;
-}
-
-.rainbow-font {
-  font-family: Over the Rainbow, Arial, Helvetica, sans-serif;
-  -webkit-text-stroke: 1px  #0d2020;
-  padding-top: 20px;
-}
-
-/* photo & hello message section styling */
-
-.photo-background {
-  background-image: url(images/notebook.jpg);
-}
-
-.photo-spacing {
-  background-color: antiquewhite;
-  padding: 30px;
-  opacity: .5;
-}
-
-.image {
-  padding: 50px;
- /**/
-}
-
-.pic-container {
-  display: flex;
-  margin-left: 9.5%; 
-  overflow: auto;
-
-}
-
-.hello-section {
-  width: 50%;  /**/ 
-}
-
-.hello-statement {
-  display: inline-block;
-  text-align: center;
-  font-family: permanent marker, Arial, Helvetica, sans-serif;
-  color: antiquewhite;
-  padding-left: 25%;
-  padding-top: 14%;
-
-}
-
-/* mission statement section styling */
-
-.mission-section {
-  background-color: #9DC7C8;
-  text-align: center;
-  height: 50%;
-  opacity: 0.9;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+  } 
   
-}
+  body {
+    overflow-x: hidden; 
+  } 
+  
+  main {
+    background-image: url(images/london.jpg);
+    background-blend-mode: luminosity;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 74px;
+    font-weight: 100;
+    margin: auto;
+  } 
+  
+  h2 {
+    font-size: 44px;
+    font-weight: 300;
+  }
+  
+  h3 {
+    font-size: 34px;
+    font-weight: 100;
+  
+  }
+  
+  hr {
+    width: 20%;
+    margin-top: 70px;
+    border: solid #2f6c6e 1px;
+    opacity: .5;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  /* top header styling */
+  
+  header {
+    background-color: rgb(183, 224, 224);
+    text-align: center;
+    color: antiquewhite;
+    padding-bottom: 8px;
+  }
+  
+  .rainbow-font {
+    font-family: Over the Rainbow, Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px  #0d2020;
+    padding-top: 20px;
+    margin: 1.5%;
+  }
 
-.mission-statement {
-  margin: auto;
-  width: 50%;
-  color:  #296263;
-  padding: 11%;
-  overflow-x: hidden; 
+  nav {
+    margin: 1%;
+    margin-top: 5%;
+    font-size: 18px;
+    color: rgb(19, 40, 73);
+  }
+  
+  /* photo & hello message section styling */
 
-}
+  .photo-background {
+    background-image: url(images/notebook.jpg); 
+  }
+  
+    
+  .photo-spacing {
+    background-color: antiquewhite;
+    padding: 30px;
+    opacity: .5;
+  }
+  
+  .image {
+    padding: 50px;
+  
+  }
+  
+  .pic-container {
+    display: flex;
+    margin-left: 9.5%; 
+    flex-direction: column;
+  }
+  
+  .hello-section {
+    width: 50%; 
+  }
+  
+  .hello-statement {
+    display: inline-block;
+    text-align: center;
+    font-family: permanent marker, Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    padding-left: 37%;
+    padding-top: 14%;
+    padding-bottom: 2%;
+  
+  }
+  
+  /* mission statement section styling */
+  
+  .mission-section {
+    background-color: #9DC7C8;
+    text-align: center;
+    height: 50%;
+    opacity: 0.9;
+    
+  }
+  
+  .mission-statement {
+    margin: auto;
+    width: 80%;
+    color:  #296263;
+    padding: 11%;
+    overflow-x: hidden; 
+  
+  }
+  
+  /* ethos section styling */
+  
+  .ethos-background {
+    background-image: url(images/city-skyline.png);
+  }
+  
+  .ethos-section {
+    background-color: antiquewhite;
+    text-align: left;
+    color: black;
+    height: 50%;
+    opacity: .9;
+  }
+  
+  .ethos-section > div {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .ethos-statement {
+    margin: auto;
+    width: 70%;
+    font-size: 24px;
+    color:  #296263;
+    padding: 8%;
+    overflow-x: hidden; 
+  
+  } 
+  
+  /* Portfolio section styling */
 
-/* ethos section styling */
+  .portfolio-title {
+    background-color: #9DC7C8;
+    text-align: center;
+    color: white;
+    opacity: .9;
+    font-size: 44px;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    padding: 30px;
+  }
+  
+  .portfolio-section {
+    background-color: #9DC7C8;
+    text-align: center;
+    color: white;
+    opacity: .9;
+    font-size: 34px;
+    height: 60%;
+    padding: 9%;
+    margin-bottom: 50px;
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio-section > div {
+    margin: auto;
+    width: 50%;
+    overflow-x: hidden; 
+  }
+  
+  /* contacts section styling */
+  
+  .contact-section {
+    text-align: center;
+    color: rgb(45, 56, 56);
+    height: 600px;
+    font-size: 24px;
+    font-family: Shadow Into Light, Arial, Helvetica, sans-serif;
+    overflow-x: hidden; 
+  
+  }
+  
+  .contact-background {
+   background-image: url(images/contact-us.png);
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: 800px;
+  }
+  
+  .contact-list {
+    padding: 1%;
+    display: inline-block;
+  }
+  
+  .contact-images {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .logo-size {
+    width: 100px;
+  }
+  
+  /* google section styling */
+  
+  .google-section {
+    background-color: #5C9394;
+    text-align: center;
+    color: white;
+    opacity: .9;
+    padding: 40px;
+  }
+  
+  /* footer section styling */
+  
+  footer {
+    padding: 25px;
+    background-color: #296263;
+    text-align: center;
+    color: antiquewhite;
+  
+  }
+   
+  /* various animations styling */
+  
+  .swing {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: swing; 
+    animation-duration: 7s; 
+  }
+   
+  .fade-left {
+    margin: 0 0.5rem;
+  
+    animation: fadeInLeft; 
+    animation-duration: 8s; 
+  }
+  
+  .bounceInLeft {
+    animation: bounceInLeft;
+    animation-duration: 10s; 
+  }
+  
+  .fadeIn {
+    animation: fadeIn;
+    animation-duration: 10s; 
+  }
+  
+  .bounceInRight {
+    animation: bounceInRight; 
+    animation-duration: 10s; 
+  }
+  
+  .slideInUp {
+    animation: slideInUp; 
+    animation-duration: 11s;
+  }
+  
+  /* on hover section styling */
+  
+  .button-link:hover {
+    box-shadow: 0px 92px 33px 11px rgba(183, 224, 224,0.1);
+    position: relative;
+    bottom: 5px;
+    animation: swing;
+    animation-duration: 10s;
+  }
+  
+  .google-button-link:hover {
+    box-shadow: 0px 122px 33px 11px rgba(183, 224, 224,0.1);
+    position: relative;
+    bottom: 5px;
+    animation: swing; 
+    animation-duration: 10s;
+  }
+  
+  .photo-animation:hover {
+    animation: tada;
+    animation-duration: 10s;
+  }
+  
+  /* links styling */
+  
+  a:link {
+    color: rgb(80, 102, 102);
+  }
+  
+  a:visited {
+    color: rgb(123, 156, 156);
+  }
+  
+  a:hover {
+    color: antiquewhite;
+  }
+  
+  a:active {
+    color: rgb(202, 189, 173);
+  }
+  
+  a {
+    text-decoration: none;
+  }
 
-.ethos-background {
-  background-image: url(images/city-skyline.png);
-}
+  /* contact form style */
+  
+  label {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
 
-.ethos-section {
-  background-color: antiquewhite;
-  text-align: left;
-  color: black;
-  height: 50%;
-  opacity: .9;
-}
 
-.ethos-section > div {
-  margin: auto;
-  width: 50%;
-}
+  input {
+    margin: 5%;
+    margin-left: 12%;
+  }
 
-.ethos-statement {
-  margin: auto;
-  width: 50%;
-  font-size: 24px;
-  color:  #296263;
-  padding: 8%;
-  overflow-x: hidden; 
+  textarea {
+    margin: 5%;
+    margin-left: 12%;
+  }
 
-} 
+  button {
+    margin: 5%;
+  }
 
-/* who am I? section styling */
+  /* media query */
 
-.who-section {
-  background-color: #9DC7C8;
-  text-align: left;
-  color: white;
-  opacity: .9;
-  font-size: 34px;
-  height: 60%;
-  padding: 9%;
-  margin-bottom: 50px;
-  overflow-x: hidden; 
-}
+  @media all and (min-width: 800px) {
+  
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-.who-section > div {
-  margin: auto;
-  width: 50%;
-  overflow-x: hidden; 
-}
+    .pic-container {
+        flex-direction: row;
+      
+      }
+    
+    .rainbow-font {
+        margin: 0;
+    }
 
-/* contacts section styling */
+    .hello-statement {
+        padding-left: 25%;
+        padding-top: 14%;
+        padding-bottom: 2%;
+      
+      }
+    
+    h1 {
+        font-size: 64px;
 
-.contact-section {
-  text-align: center;
-  color: rgb(45, 56, 56);
-  height: 600px;
-  font-size: 24px;
-  font-family: Shadow Into Light, Arial, Helvetica, sans-serif;
-  overflow-x: hidden; 
+    }
 
-}
+    .portfolio-section {
+      flex-direction: row;
+    }
+    
+    .mission-statement {
+      width: 50%;    
+    }
 
-.contact-background {
- background-image: url(images/contact-us.png);
- background-position: 50% 50%;
- background-repeat: no-repeat;
- background-size: 800px;
-}
-
-.contact-list {
-  padding: 1%;
-  display: inline-block;
-}
-
-.contact-images {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.logo-size {
-  width: 100px;
-}
-
-/* google section styling */
-
-.google-section {
-  background-color: #5C9394;
-  text-align: center;
-  color: white;
-  opacity: .9;
-  padding: 40px;
-}
-
-/* footer section styling */
-
-footer {
-  padding: 25px;
-  background-color: #296263;
-  text-align: center;
-  color: antiquewhite;
-
-}
- 
-/* various animations styling */
-
-.swing {
-  display: inline-block;
-  margin: 0 0.5rem;
-
-  animation: swing; 
-  animation-duration: 7s; 
-}
- 
-.fade-left {
-  margin: 0 0.5rem;
-
-  animation: fadeInLeft; 
-  animation-duration: 8s; 
-}
-
-.bounceInLeft {
-  animation: bounceInLeft;
-  animation-duration: 10s; 
-}
-
-.fadeIn {
-  animation: fadeIn;
-  animation-duration: 10s; 
-}
-
-.bounceInRight {
-  animation: bounceInRight; 
-  animation-duration: 10s; 
-}
-
-.slideInUp {
-  animation: slideInUp; 
-  animation-duration: 11s;
-}
-
-/* on hover section styling */
-
-.button-link:hover {
-  box-shadow: 0px 92px 33px 11px rgba(183, 224, 224,0.1);
-  position: relative;
-  bottom: 5px;
-  animation: swing;
-  animation-duration: 10s;
-}
-
-.google-button-link:hover {
-  box-shadow: 0px 122px 33px 11px rgba(183, 224, 224,0.1);
-  position: relative;
-  bottom: 5px;
-  animation: swing; 
-  animation-duration: 10s;
-}
-
-.photo-animation:hover {
-  animation: tada;
-  animation-duration: 10s;
-}
-
-/* links styling */
-
-a:link {
-  color: rgb(255, 240, 221);
-}
-
-a:visited {
-  color: rgb(123, 156, 156);
-}
-
-a:hover {
-  color: rgb(253, 239, 219);
-}
-
-a:active {
-  color: rgb(240, 224, 205);
-}
-
-/* contact section button links */
-
-.logo-button-effect:active {
-  transform: translateY(5px);
-}
+    .ethos-section > div {
+      width: 50%;
+    }
+    
