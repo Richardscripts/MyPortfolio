@@ -51,6 +51,7 @@ html {
     text-align: center;
     color: antiquewhite;
     padding-bottom: 8px;
+    
   }
   
   .rainbow-font {
@@ -78,32 +79,27 @@ html {
     background-color: antiquewhite;
     padding: 30px;
     opacity: .5;
+    
   }
   
   .image {
     padding: 50px;
-  
   }
   
   .pic-container {
     display: flex;
-    margin-left: 9.5%; 
     flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
   }
   
-  .hello-section {
-    width: 50%; 
-  }
-  
+   
   .hello-statement {
     display: inline-block;
     text-align: center;
     font-family: permanent marker, Arial, Helvetica, sans-serif;
     color: antiquewhite;
-    padding-left: 37%;
-    padding-top: 14%;
-    padding-bottom: 2%;
-  
+    align-items: center;
   }
   
   /* mission statement section styling */
@@ -360,6 +356,7 @@ html {
 
     .pic-container {
         flex-direction: row;
+        margin-left: 9.5%; 
       
       }
     
@@ -391,3 +388,12 @@ html {
       width: 50%;
     }
     
+    .image {
+    padding: 50px;
+
+    }
+
+    .hello-section {
+      width: 50%; 
+    }
+  }
